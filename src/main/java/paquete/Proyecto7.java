@@ -31,7 +31,7 @@ public class Proyecto7 {
 		System.out.println("Elige el tipo de partido de la cual quieres saber la recaudación de taquilla máxima");
 		System.out.println("Los tipos de partido disponibles son (introduce el numero)");
 		System.out.println("1:Playoff Ascenso /  2:Liga / 3:Copa del Rey / 4: Otro tipo"); 
-		short tipoPartido = Short.parseShort(lector.nextLine());
+		byte tipoPartido = Byte.parseByte(lector.nextLine());
 		
 		System.out.println("¿Quieres calcualar la recaudación con el estadio lleno? (s/n)");
 		char respuesta = lector.nextLine().charAt(0);
